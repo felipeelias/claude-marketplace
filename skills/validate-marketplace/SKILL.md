@@ -24,15 +24,15 @@ Verify `.claude-plugin/marketplace.json` exists and contains valid JSON with the
 
 For each entry in `plugins[]`, verify these fields are present:
 
-| Field | Required | Notes |
-|-------|----------|-------|
-| `name` | Yes | kebab-case |
-| `source` | Yes | relative path starting with `./plugins/` |
-| `description` | Yes | non-empty string |
-| `version` | Recommended | semver format |
-| `author` | Recommended | object with `name` |
-| `category` | Recommended | one of: development, productivity, security, database, testing |
-| `license` | Recommended | e.g. MIT, Apache-2.0 |
+|Field|Required|Notes|
+|-|-|-|
+|`name`|Yes|kebab-case|
+|`source`|Yes|relative path starting with `./plugins/`|
+|`description`|Yes|non-empty string|
+|`version`|Recommended|semver format|
+|`author`|Recommended|object with `name`|
+|`category`|Recommended|one of: development, productivity, security, database, testing|
+|`license`|Recommended|e.g. MIT, Apache-2.0|
 
 ### 3. Plugin Source Exists
 
@@ -65,7 +65,7 @@ If a plugin directory contains `.claude-plugin/hooks.json`, verify:
 
 Present results as a checklist:
 
-```
+```markdown
 ## Marketplace Validation Results
 
 - [x] Marketplace structure valid
