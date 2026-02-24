@@ -4,8 +4,20 @@ Personal Claude Code plugin marketplace by [Felipe Philipp](https://github.com/f
 
 ## Installation
 
+### From Claude Code (recommended)
+
+1. Run `/plugin` and select **Add marketplace**
+2. Enter `felipeelias/claude-marketplace`
+3. Run `/plugin` again and install **claude-notifier**
+
+### From the CLI
+
 ```sh
-claude plugin install gh:felipeelias/claude-marketplace
+# Add marketplace (one-time)
+claude plugin marketplace add felipeelias/claude-marketplace
+
+# Install plugin
+claude plugin install claude-notifier@felipe-philipp
 ```
 
 ## Plugins
