@@ -1,0 +1,13 @@
+{
+  "name": "claude-marketplace",
+  "owner": {
+    "name": "Felipe Philipp"
+  },
+  "plugins": [
+    {
+      "name": "claude-notifier",
+      "source": "./plugins/claude-notifier",
+      "description": "Multi-channel notification dispatcher for Claude Code hooks"
+    }
+  ]
+}
