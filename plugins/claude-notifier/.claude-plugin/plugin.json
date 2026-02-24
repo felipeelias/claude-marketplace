@@ -5,5 +5,8 @@
   "author": {
     "name": "Felipe Philipp"
   },
-  "homepage": "https://github.com/felipeelias/claude-notifier"
+  "homepage": "https://github.com/felipeelias/claude-notifier",
+  "repository": "https://github.com/felipeelias/claude-notifier",
+  "license": "MIT",
+  "keywords": ["notifications", "ntfy", "terminal-notifier", "hooks"]
 }

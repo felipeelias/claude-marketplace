@@ -1,14 +1,26 @@
 {
   "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
   "name": "felipe-philipp",
+  "metadata": {
+    "description": "Personal Claude Code plugin marketplace by Felipe Philipp",
+    "version": "0.1.0"
+  },
   "owner": {
-    "name": "Felipe Philipp"
+    "name": "Felipe Philipp",
+    "email": "24556+felipeelias@users.noreply.github.com"
   },
   "plugins": [
     {
       "name": "claude-notifier",
       "source": "./plugins/claude-notifier",
-      "description": "Multi-channel notification dispatcher for Claude Code hooks"
+      "description": "Multi-channel notification dispatcher for Claude Code hooks",
+      "version": "0.1.0",
+      "author": {
+        "name": "Felipe Philipp"
+      },
+      "category": "productivity",
+      "homepage": "https://github.com/felipeelias/claude-notifier",
+      "license": "MIT"
     }
   ]
 }
