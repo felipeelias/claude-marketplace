@@ -1,4 +1,5 @@
 {
+  "description": "Sends notifications through claude-notifier when Claude Code events occur",
   "hooks": {
     "Notification": [
       {
