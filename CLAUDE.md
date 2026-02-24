@@ -6,7 +6,8 @@ Personal Claude Code plugin marketplace.
 
 - `.claude-plugin/marketplace.json` — marketplace registry
 - `plugins/<name>/.claude-plugin/plugin.json` — plugin manifest
-- `plugins/<name>/.claude-plugin/hooks.json` — plugin hooks
+- `plugins/<name>/hooks/hooks.json` — plugin hooks
+- `skills/` — marketplace management skills
 
 ## Conventions
 
@@ -14,9 +15,18 @@ Personal Claude Code plugin marketplace.
 - Versions follow semver
 - Plugin sources use relative paths (`./plugins/<name>`)
 - Keep marketplace.json plugin entries in sync with plugin.json manifests
+- plugin.json is the source of truth for plugin metadata
+
+## Linting
+
+- Markdown: `markdownlint-cli2` (config: `.markdownlint.jsonc`)
+- JSON: `biome check .` (config: `biome.json`)
+- YAML: `yamllint .` (config: `.yamllint.yml`)
 
 ## Validation
 
 ```sh
 claude plugin validate .
 ```
+
+Or use the `/validate-marketplace` skill to check manifest sync and hooks.
