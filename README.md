@@ -16,16 +16,17 @@ Personal Claude Code plugin marketplace by [Felipe Philipp](https://github.com/f
 # Add marketplace (one-time)
 claude plugin marketplace add felipeelias/claude-marketplace
 
-# Install plugin
+# Install plugins
 claude plugin install claude-notifier@felipe-philipp
+claude plugin install github-tools@felipe-philipp
 ```
 
 ## Plugins
 
-|Plugin|Description|Version|
-|-|-|-|
-|[claude-notifier](https://github.com/felipeelias/claude-notifier)|Multi-channel notification dispatcher for Claude Code hooks|0.2.0|
-|github-tools|GitHub CLI tools for CI monitoring, PR management, and workflow automation|0.2.0|
+| Plugin | Description | Version |
+| - | - | - |
+| [claude-notifier](https://github.com/felipeelias/claude-notifier) | Multi-channel notification dispatcher for Claude Code hooks | 0.2.0 |
+| github-tools | GitHub CLI tools for CI monitoring, PR management, and workflow automation | 0.2.0 |
 
 ## Adding a plugin
 
