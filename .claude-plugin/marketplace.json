@@ -32,6 +32,17 @@
       },
       "category": "development",
       "license": "MIT"
+    },
+    {
+      "name": "writing-style",
+      "source": "./plugins/writing-style",
+      "description": "Personal writing style guide for blog posts, PR descriptions, and general prose. Enforces voice, structure, and anti-patterns.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Felipe Philipp"
+      },
+      "category": "productivity",
+      "license": "MIT"
     }
   ]
 }
