@@ -2,10 +2,11 @@
 name: writing-style
 description: >
   This skill should be used when the user asks to "write a blog post",
-  "draft a post", "write a PR description", "review my writing",
-  "edit this draft", "check my writing style", or when any task involves
-  producing or editing prose such as blog posts, PR descriptions,
-  announcements, or documentation.
+  "draft a post", "write a PR description", "write a PR comment",
+  "reply to a PR comment", "review my writing", "edit this draft",
+  "check my writing style", or when any task involves producing or
+  editing prose such as blog posts, PR descriptions, PR comments,
+  code review replies, announcements, or documentation.
 ---
 
 # Writing Style
