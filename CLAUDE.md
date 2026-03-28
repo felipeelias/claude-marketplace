@@ -7,6 +7,7 @@ Personal Claude Code plugin marketplace.
 - `.claude-plugin/marketplace.json` — marketplace registry
 - `plugins/<name>/.claude-plugin/plugin.json` — plugin manifest
 - `plugins/<name>/hooks/hooks.json` — plugin hooks
+- `plugins/<name>/skills/<skill>/SKILL.md` — plugin skills
 - `skills/` — marketplace management skills
 
 ## Conventions
