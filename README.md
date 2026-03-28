@@ -19,6 +19,7 @@ claude plugin marketplace add felipeelias/claude-marketplace
 # Install plugins
 claude plugin install claude-notifier@felipe-philipp
 claude plugin install github-tools@felipe-philipp
+claude plugin install writing-style@felipe-philipp
 ```
 
 ## Plugins
@@ -27,6 +28,7 @@ claude plugin install github-tools@felipe-philipp
 | - | - | - |
 | [claude-notifier](https://github.com/felipeelias/claude-notifier) | Multi-channel notification dispatcher for Claude Code hooks | 0.2.0 |
 | github-tools | GitHub CLI tools for CI monitoring, PR management, and workflow automation | 0.2.0 |
+| writing-style | Personal writing style guide for blog posts, PR descriptions, and general prose | 0.1.0 |
 
 ## Adding a plugin
 
