@@ -1,0 +1,17 @@
+repos:
+  - repo: https://github.com/DavidAnson/markdownlint-cli2
+    rev: v0.17.2
+    hooks:
+      - id: markdownlint-cli2
+  - repo: local
+    hooks:
+      - id: biome-check
+        name: biome check
+        entry: biome check
+        language: system
+        files: \.(json|jsonc)$
+      - id: yamllint
+        name: yamllint
+        entry: yamllint
+        language: system
+        types: [yaml]

@@ -1,0 +1,11 @@
+{
+  "ignores": ["docs/plans/**"],
+  "config": {
+    // Disable line length — tables and URLs make strict wrapping impractical
+    "MD013": false,
+    // Allow compact table separators (|---|---|)
+    "MD060": false,
+    // SKILL.md files use frontmatter for the title
+    "MD041": false
+  }
+}

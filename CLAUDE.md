@@ -20,7 +20,7 @@ Personal Claude Code plugin marketplace.
 
 ## Linting
 
-- Markdown: `markdownlint-cli2` (config: `.markdownlint.jsonc`)
+- Markdown: `markdownlint-cli2` (config: `.markdownlint-cli2.jsonc`)
 - JSON: `biome check .` (config: `biome.json`)
 - YAML: `yamllint .` (config: `.yamllint.yml`)
 
