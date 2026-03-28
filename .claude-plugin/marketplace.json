@@ -26,7 +26,7 @@
       "name": "ci-monitor",
       "source": "./plugins/ci-monitor",
       "description": "Monitor CI status on PRs and branches using GitHub CLI.",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "author": {
         "name": "Felipe Philipp"
       },
