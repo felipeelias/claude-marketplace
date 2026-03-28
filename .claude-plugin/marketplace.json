@@ -21,6 +21,17 @@
       "category": "productivity",
       "homepage": "https://github.com/felipeelias/claude-notifier",
       "license": "MIT"
+    },
+    {
+      "name": "ci-monitor",
+      "source": "./plugins/ci-monitor",
+      "description": "Monitor CI status on PRs and branches using GitHub CLI.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Felipe Philipp"
+      },
+      "category": "development",
+      "license": "MIT"
     }
   ]
 }
