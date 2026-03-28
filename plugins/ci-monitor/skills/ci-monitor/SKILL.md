@@ -7,7 +7,7 @@ allowed-tools: Bash(git branch:*), Bash(gh pr checks:*), Bash(gh pr view:*), Bas
 
 ## Context
 
-- Has PR: !`gh pr view --json url --jq .url 2>/dev/null`
+- Has PR: !`gh pr view --json url --jq .url 2>/dev/null || true`
 - Current branch: !`git branch --show-current`
 
 ## Steps
