@@ -23,10 +23,10 @@
       "license": "MIT"
     },
     {
-      "name": "ci-monitor",
-      "source": "./plugins/ci-monitor",
-      "description": "Monitor CI status on PRs and branches using GitHub CLI.",
-      "version": "0.1.1",
+      "name": "github-tools",
+      "source": "./plugins/github-tools",
+      "description": "GitHub CLI tools for CI monitoring, PR management, and workflow automation.",
+      "version": "0.2.0",
       "author": {
         "name": "Felipe Philipp"
       },
