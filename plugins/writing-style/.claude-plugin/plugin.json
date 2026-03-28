@@ -1,7 +1,7 @@
 {
   "name": "writing-style",
   "description": "Personal writing style guide for blog posts, PR descriptions, and general prose. Enforces voice, structure, and anti-patterns.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": {
     "name": "Felipe Philipp"
   },
