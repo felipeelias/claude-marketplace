@@ -2,7 +2,7 @@
 name: address-comments
 description: "Fetch, categorize, fix, and resolve all PR review comments (inline, reviews, nitpicks) from CodeRabbit, Copilot, and other reviewers"
 user-invocable: true
-allowed-tools: Bash(gh *), Bash(git *), Bash(PRE_COMMIT_ALLOW_NO_CONFIG*), Read, Edit, Glob, Grep
+allowed-tools: Bash(gh api:*), Bash(gh pr:*), Bash(gh repo:*), Bash(git add:*), Bash(git commit:*), Bash(git push:*), Bash(git diff:*), Bash(golangci-lint:*), Bash(go test:*), Bash(go build:*), Bash(PRE_COMMIT_ALLOW_NO_CONFIG:*), Read, Edit, Glob, Grep
 ---
 
 ## Context
