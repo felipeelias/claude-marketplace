@@ -1,7 +1,7 @@
 {
   "name": "github-tools",
   "description": "GitHub CLI tools for CI monitoring, PR management, and workflow automation.",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "author": {
     "name": "Felipe Philipp"
   },
