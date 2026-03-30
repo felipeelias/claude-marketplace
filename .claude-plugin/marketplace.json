@@ -26,7 +26,7 @@
       "name": "github-tools",
       "source": "./plugins/github-tools",
       "description": "GitHub CLI tools for CI monitoring, PR management, and workflow automation.",
-      "version": "0.2.0",
+      "version": "0.3.2",
       "author": {
         "name": "Felipe Philipp"
       },

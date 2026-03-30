@@ -7,8 +7,9 @@ allowed-tools: Bash(gh api:*), Bash(gh pr:*), Bash(gh repo:*), Bash(git add:*), 
 
 ## Context
 
-- PR: !`gh pr view --json number,url --jq '"\(.number) \(.url)"' 2>/dev/null || echo "no PR"`
-- Repo: !`gh repo view --json nameWithOwner --jq .nameWithOwner 2>/dev/null || true`
+- PR number: !`gh pr view --json number --jq .number`
+- PR URL: !`gh pr view --json url --jq .url`
+- Repo: !`gh repo view --json nameWithOwner --jq .nameWithOwner`
 - Branch: !`git branch --show-current`
 
 ## Steps
@@ -39,10 +40,14 @@ Read each file, make the fix, verify it addresses the comment.
 
 Run the project's linter and tests before committing. Commit with `fix: address review feedback (...)`. Push to the PR branch.
 
-### 5. Resolve threads
+### 5. Reply and resolve threads
 
-Fetch unresolved thread IDs with GraphQL, then resolve each addressed thread:
+For each addressed thread, reply with a short comment explaining what was fixed and in which commit, then resolve the thread.
 
 ```sh
+# Reply to inline comment
+gh api repos/{REPO}/pulls/{PR}/comments/{COMMENT_ID}/replies -f body='Fixed in {SHA} — {what was done}.'
+
+# Resolve the thread
 gh api graphql -f query='mutation { resolveReviewThread(input: {threadId: "ID"}) { thread { isResolved } } }'
 ```
